@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # E.D.I.T.H. — Enhanced Digital Identity, Trust & Heuristics
 
 A full-stack prototype that analyzes **simulated** application permission events, produces explainable alerts, assigns a heuristic trust score (0–100), and recommends permission restrictions. It does not inspect installed apps or change permissions on a real device.
@@ -97,3 +98,6 @@ All routes except `/api/auth/register`, `/api/auth/login`, and `/api/health` req
 - Use HTTPS, a managed secrets store, MongoDB least-privilege credentials, and a shared rate-limit store before production deployment.
 - The detection engine should be network-restricted so only the backend can call it; it is not an authenticated public API in this prototype.
 - The app's monitoring and permission changes are simulated only. Real device monitoring requires Android/iOS platform integrations and user-granted OS permissions.
+=======
+# Hackathon
+>>>>>>> efa86e0abf2822db7d5f97e323b56537a348f569
